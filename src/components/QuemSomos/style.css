@@ -4,11 +4,11 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: start;
-    padding-top: 20px;
     gap: 20px;
 
-    width: 80vw;
     margin: auto;
+
+    width: 80vw;
     height: 90vh;
     
 }
@@ -47,7 +47,7 @@
 .conteinerOptionsContact {
 
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -65,7 +65,7 @@
     
 }
 
-.conteinerOptionsContact > div {
+.conteinerOptionsContact > a > div {
 
     display: flex;
     flex-wrap: nowrap;
@@ -84,7 +84,7 @@
     
 }
 
-.conteinerOptionsContact > div:hover {
+.conteinerOptionsContact > a > div:hover {
 
     filter: grayscale(0.9);
     transition: ease 0.2s;

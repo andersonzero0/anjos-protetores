@@ -1,4 +1,5 @@
 import "./style.css"
+import "./responsive.css"
 
 export default function CardHistoria({ img, name, history }) {
 

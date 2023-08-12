@@ -1,0 +1,65 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .sectionContent {
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        
+    }
+
+    .mainComoPossoAjudar {
+
+        gap: 0px;
+        
+    }
+
+    .sectionContent > div {
+
+        width: 110%;
+        
+    }
+
+    .conteinerPix {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    .sectionContent {
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+    }
+
+    .mainComoPossoAjudar {
+
+        margin-top: 60vh;
+        
+    }
+
+    .sectionContent > div {
+
+        width: 110%;
+        
+    }
+
+    .conteinerPix {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+}

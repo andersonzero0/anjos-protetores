@@ -1,5 +1,6 @@
 import CardHistoria from "../CardHistoria"
 import "./style.css"
+import "./responsive.css"
 
 export default function Historias() {
 

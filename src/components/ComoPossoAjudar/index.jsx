@@ -1,5 +1,6 @@
 import { Fish, HelpingHand, PawPrint } from "lucide-react"
 import "./style.css"
+import "./responsive.css"
 
 export default function ComoPossoAjudar() {
 

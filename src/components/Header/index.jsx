@@ -1,6 +1,6 @@
-import { useEffect } from "react";
 import { Link } from "react-scroll";
 import "./style.css"
+import "./responsive.css"
 
 export default function Header() {
 
@@ -23,7 +23,7 @@ export default function Header() {
                         to="QuemSomos"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-110}
                         duration={400}
                         >
                             <li>QUEM SOMOS</li>
