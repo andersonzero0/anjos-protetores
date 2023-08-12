@@ -1,0 +1,104 @@
+.mainQuemSomos {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: start;
+    padding-top: 20px;
+    gap: 20px;
+
+    width: 80vw;
+    margin: auto;
+    height: 90vh;
+    
+}
+
+.mainQuemSomos > section {
+
+    width: 50vw;
+    
+}
+
+.titleSection {
+
+    font-size: 32px;
+    font-weight: 200;
+    
+}
+
+.contentText {
+
+    line-height: 28px;
+    font-size: 16px;
+    
+}
+
+.sectionContact {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    
+}
+
+.conteinerOptionsContact {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 28px;
+    
+}
+
+.conteinerContact {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.conteinerOptionsContact > div {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    background-color: var(--color-green-primary);
+    padding: 4px 8px;
+    color: white;
+    font-weight: bolder;
+    transition: ease 0.1s;
+    cursor: pointer;
+
+    border-radius: 4px;
+    
+}
+
+.conteinerOptionsContact > div:hover {
+
+    filter: grayscale(0.9);
+    transition: ease 0.2s;
+    
+}
+
+.conteinerImage, .conteinerImage > img {
+
+    width: 100%;
+    
+}
+
+.textContact {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}

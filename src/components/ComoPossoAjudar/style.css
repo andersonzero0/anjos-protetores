@@ -1,0 +1,72 @@
+.mainComoPossoAjudar {
+
+    width: 80%;
+    height: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+}
+
+.titleMain {
+
+    font-weight: 200;
+    
+}
+
+.sectionContent {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.titleArticle {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--color-black);
+    text-decoration: overline;
+}
+
+.bodyContent {
+
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+    
+}
+
+.bodyContent > article > p {
+
+    letter-spacing: 1px;
+    
+}
+
+.conteinerPix > img {
+
+    width: 200px;
+    
+}
+
+.contentPix {
+    text-align: center;
+}
+
+strong {
+
+    color: var(--color-green-primary);
+    font-size: 28px;
+    text-decoration: underline;
+    
+}
+
+small {
+    font-size: 16px;
+    font-weight: 300;
+}
