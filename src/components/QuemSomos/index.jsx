@@ -45,6 +45,13 @@ export default function QuemSomos() {
                             </div>
                         </a>
 
+                        <a href="mailto:silviahelenaherculano@yahoo.com.br">
+                            <div>
+                                <Mail size={"28px"} />
+                                <p className="textContact">EMAIL</p>
+                            </div>
+                        </a>
+
                         <a href="#">
                             <div>
                                 <p style={{textAlign: "center"}} className="textContact"><MapPin size={"28px"} />ENDEREÇO: <br /> Endereço Travessa Arapixi s/n, Bairro Carioca, São Gonçalo do Amarante, CE</p>
